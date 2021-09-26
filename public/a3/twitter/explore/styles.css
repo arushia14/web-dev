@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #101517;
+    overflow: hidden;
+}
+
+.explore-page {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.search-bar {
+    outline: none;
+    margin: 12px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 2.8rem;
+    background-color: #3a3e41;
+    color: white;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1rem;
+    cursor: text;
+}
+
+.search-bar > i {
+    color: #afaeae;
+    margin-right: 15px;
+}
+
+.search-bar > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 2.3rem;
+    background-color: #3a3e41;
+    font-size: 1rem;
+    color: #afaeae;
+}
+
+.search-area .fa-cog {
+    float: right;
+}
