@@ -14,6 +14,10 @@ body {
     margin-right: 10%;
 }
 
+.search-area {
+    display: flex;
+}
+
 .search-bar {
     outline: none;
     margin: 12px;
@@ -45,6 +49,11 @@ body {
     color: #afaeae;
 }
 
-.search-area .fa-cog {
-    float: right;
+.gear{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #61dafb;
+    margin-top: 20px;
+    margin-left: 25px;
 }
+
