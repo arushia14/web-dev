@@ -6,11 +6,10 @@
 }
 
 body {
-    background-color: #101517;
+    overflow-y: auto;
+    background-color: black;
     margin-right: 5%;
     margin-left: 5%;
-    border-left: 1px solid rgb(47, 51, 54);
-    border-right: 1px solid rgb(47, 51, 54);
 }
 
 a {
@@ -18,8 +17,8 @@ a {
 }
 
 .wd-explore-page {
-    height: 100vh;
-}
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);}
 
 .wd-search-area {
     display: flex;
@@ -74,7 +73,7 @@ a {
     margin: 2% 2% 1% 2%;
     display: flex;
     justify-content: space-between;
-    padding: 0px 16px 0px 16px;
+    padding: 16px 16px 16px 16px;
 }
 
 .wd-hyperlinks .wd-unselected-hyperlink {
