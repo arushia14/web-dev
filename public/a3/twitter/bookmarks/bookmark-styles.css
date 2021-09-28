@@ -158,7 +158,7 @@ a {
 }
 
 .wd-heart {
-    color: deeppink;
+    color: darkred;
 }
 
 .wd-option {
@@ -171,4 +171,8 @@ a {
     color: darkgray;
     font-weight: lighter;
     margin-bottom: 30px;
+}
+
+.wd-count-heart {
+    color: darkred;
 }
