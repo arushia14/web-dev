@@ -18,7 +18,8 @@ a {
 
 .wd-explore-page {
     border-left: 1px solid rgb(47, 51, 54);
-    border-right: 1px solid rgb(47, 51, 54);}
+    border-right: 1px solid rgb(47, 51, 54);
+}
 
 .wd-search-area {
     display: flex;
@@ -61,7 +62,7 @@ a {
     text-decoration: none;
     font-size: 1.5rem;
     color: rgb(29,161,242);
-    margin-top: 20px;
+    margin-top: 22px;
     margin-left: 25px;
 }
 
