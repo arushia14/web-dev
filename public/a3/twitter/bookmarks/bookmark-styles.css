@@ -19,7 +19,7 @@ a {
 }
 
 .wd-bookmarks-page {
-    width: 100%;
+    width: 600px;
     margin: auto;
     border-left: 1px solid rgb(47, 51, 54);
     border-right: 1px solid rgb(47, 51, 54);
@@ -51,7 +51,7 @@ a {
 .wd-dots {
     position: absolute;
     top: 3%;
-    right: 7%;
+    right: 31%;
     color: rgb(29,161,242);
 }
 
@@ -97,13 +97,13 @@ a {
 .wd-dots-post {
     position: absolute;
     color: lightgray;
-    right: 7%;
+    right: 31%;
 }
 
 .wd-shared-content {
+    width: 504px;
     margin-left: 80px;
     font-size: 15px;
-    margin-right: 62px;
 }
 
 .wd-shared-img {
@@ -115,7 +115,7 @@ a {
 }
 
 .wd-shared-text {
-    width: 506px;
+    width: 504px;
     margin-top: 0;
     padding: 12px;
     border: 1px solid #2d2d2d;
@@ -145,7 +145,7 @@ a {
 }
 
 .wd-other-options {
-    width: 506px;
+    width: 504px;
     display: flex;
     gap: 15%;
     color: white;
