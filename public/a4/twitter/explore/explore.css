@@ -174,3 +174,12 @@ p {
     position: relative;
     right: 25px;
 }
+
+.img-fluid {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.main-content {
+    min-width: 50%;
+}

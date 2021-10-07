@@ -1,267 +1,191 @@
-.rotate-paragraph {
-    width: 250px;
-    height: 250px;
-    transform: rotate(90deg);
+body {
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: black;
 }
 
-.rotate-list {
-    transform: rotate(12deg);
-    width: 100px;
-    background-color: red;
+.tweet {
+    margin-top: 3%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.left-bar {
+    display: flex;
+}
+
+.left-links {
+    margin-left: 15px;
     color: white;
 }
 
-.rotate-ordered-list {
-    transform: rotate(-12deg);
-    width: 100px;
-    background-color: red;
+.explore-link {
+    color: white;
+}
+.explore-link:hover {
     color: white;
 }
 
-.rotate-list-items li {
-    width: 100px;
-    text-align: right;
+.wd-search-area {
+    display: flex;
 }
-.rotate-list-items li:nth-child(1) {
-    transform: rotate(-10deg);
-    background-color: yellow;
-}
-.rotate-list-items li:nth-child(2) {
-    transform: rotate(2deg);
-    background-color: blue;
+
+.wd-search-bar {
+    outline: none;
+    /*margin: 12px;*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    background-color: white;
     color: white;
-}
-.rotate-list-items li:nth-child(3) {
-    transform: rotate(10deg);
-    background-color: red;
-}
-
-.rotate-image {
-    transform: rotate(-10deg);
+    border: 1px solid #4d4b4b;
+    border-radius: 1.625rem;
+    padding: 0 3rem 0 1rem;
+    font-size: 1rem;
+    cursor: text;
 }
 
-.rotate-image-2 {
-    width: 200px;
-    height: 100px;
-    transform: rotate(10deg);
+.wd-search-bar > i {
+    color: #afaeae;
+    margin-right: 15px;
 }
 
-.rotate-table {
+.wd-search-bar > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 2.3rem;
+    background-color: white;
+    font-size: 1rem;
+    color: #3d3e3f;
+}
+
+.wd-gear{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: rgb(16, 111, 218);
+    margin-left: 15px;
+}
+
+.image-block {
+    width: 100%;
+    height: 50%;
+    background: url("https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.img-caption {
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 85%;
+    margin-left: 10px;
+}
+
+.wd-post {
+    display: flex;
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+}
+
+.wd-post-text {
+    margin-left: 20px;
+}
+
+.wd-post-author {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wd-time {
+    color: #777e85;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wd-headline {
+    font-weight: bold;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wd-post-topic {
+    color: #777e85;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-post-img {
     position: relative;
     left: 50px;
-    transform: rotate(15deg);}
-.rotate-table tr:nth-child(1) {
+    top: 10px;
+    bottom: 10px;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+.no-tweets {
+    color: #777e85;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.li {
+    display: flex;
+}
+
+.who-to-follow {
+    font-weight: bold;
+}
+
+.follow-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.follow-handle {
+    font-size: 12px;
+}
+
+.follow-btn {
+    border-radius: 20px;
+    position: relative;
+    right: 25px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.main-content {
+    min-width: 50%;
+}
+
+.list-group {
     background-color: black;
-    color: white;}
-.rotate-table tr:nth-child(n+2) {
-    background-color: yellow;}
-.rotate-table tr:nth-child(n+5) {
-    background-color: blue;
-    color: white;}
-.rotate-table tr:nth-child(n+8) {
-    background-color: red;}
-.rotate-table tr:nth-child(n+11) {
-    background-color: green;
-    color: white;
 }
-
-.gradients-linear {
-    background: linear-gradient(yellow, red);
-    width: 200px;
-    height: 200px;
-}
-
-.gradients-linear-again {
-    background: linear-gradient(cadetblue, palevioletred);
-    width: 200px;
-    height: 200px;
-}
-
-.gradients-positioned {
-    background:
-            radial-gradient(at top left, blue, red);
-    width: 200px;
-    height: 200px;
-    color: white;
-}
-
-.gradients-positioned-2 {
-    background:
-            radial-gradient(at top right, #d9a7de, #056b6e);
-    width: 200px;
-    height: 200px;
-    color: white;
-}
-
-.animation-keyframes {
-    position: relative;
-    top: 0px;
-    animation-duration: 7s;
-    animation-name: slidein;
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    color: white;
-}
-
-@keyframes slidein {
-    from {
-        position: relative;
-        top: 0px;
-        font-size: 100%;
-        margin-left: 100%;
-        width: 200px;
-        height: 200px;
-        background-color: yellow;
-        color: black;
-    }
-    50% {
-        position: relative;
-        top: -200px;
-        font-size: 300%;
-        margin-left: 25%;
-        width: 400px;
-        height: 400px;
-        background-color: blue;
-        color: white;
-    }
-
-    to {
-        position: relative;
-        top: 0px;
-        font-size: 100%;
-        margin-left: 0%;
-        width: 200px;
-        height: 200px;
-        background-color: red;
-        color: white;
-    }
-}
-
-.animation-keyframes-2 {
-    position: relative;
-    top: 0px;
-    animation-duration: 7s;
-    animation-name: slidein2;
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    color: white;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-@keyframes slidein2 {
-    from {
-        position: relative;
-        top: 0px;
-        font-size: 100%;
-        margin-left: 100%;
-        width: 200px;
-        height: 200px;
-        background-color: yellow;
-        color: black;
-    }
-    50% {
-        position: relative;
-        top: -200px;
-        font-size: 1%;
-        margin-left: 15%;
-        width: 400px;
-        height: 400px;
-        background-color: #8d2067;
-        color: #0c0a0a;
-    }
-
-    to {
-        position: relative;
-        top: 0px;
-        font-size: 100%;
-        margin-left: 0%;
-        width: 200px;
-        height: 200px;
-        background-color: #d9b0b0;
-        color: #460707;
-    }
-}
-
-.flex-container {
-    border-width: 5px;
-    border-color: black;
-    border-style: solid;
-}
-.flex-box {
-    border: 5px gray solid;
-    margin: 10px;
-    padding: 10px;
-}
-.flex-box-1 {
-    background-color: yellow;
-}
-.flex-box-2 {
-    background-color: blue;
-    color: white;
-}
-.flex-box-3 {
-    background-color: red;
-    color: white;
-}
-
-.flex-container1 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-
-.flex-container2 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.flex-container4 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.flex-container4 > .flex-box {
-    flex-basis: 100%;
-}
-
-@media (min-width: 0px) and (max-width: 300px) {
-    body {
-        background-color: yellow;
-    }
-    .media-query {
-        background-color: red;
-        color: white;
-    }
-}
-
-@media (min-width: 0px) and (max-width: 300px) {
-    body {
-        background-color: yellow;
-    }
-    .media-query {
-        background-color: red;
-        color: white;
-    }
-}
-body {
-    font-size: 20px;
-}
-
-@media only screen and (max-width: 768px) {
-
-    body {
-        font-size: 18px;
-    }
-
-}
-
-@media screen and (max-width: 600px) {
-    p {
-        background-color: #f5a5d2;
-    }
-}
-
