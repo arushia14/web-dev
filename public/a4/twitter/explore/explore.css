@@ -1,0 +1,176 @@
+body {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.tweet {
+    margin-top: 3%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.left-bar {
+    display: flex;
+}
+
+.left-links {
+    margin-left: 15px;
+}
+
+.explore-link {
+    color: white;
+}
+.explore-link:hover {
+    color: white;
+}
+
+.wd-search-area {
+    display: flex;
+}
+
+.wd-search-bar {
+    outline: none;
+    /*margin: 12px;*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    background-color: white;
+    color: white;
+    border: 1px solid #4d4b4b;
+    border-radius: 1.625rem;
+    padding: 0 3rem 0 1rem;
+    font-size: 1rem;
+    cursor: text;
+}
+
+.wd-search-bar > i {
+    color: #afaeae;
+    margin-right: 15px;
+}
+
+.wd-search-bar > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 2.3rem;
+    background-color: white;
+    font-size: 1rem;
+    color: #3d3e3f;
+}
+
+.wd-gear{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: rgb(16, 111, 218);
+    margin-left: 15px;
+}
+
+.image-block {
+    width: 100%;
+    height: 50%;
+    background: url("https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.img-caption {
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 85%;
+    margin-left: 10px;
+}
+
+.wd-post {
+    display: flex;
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+}
+
+.wd-post-text {
+    margin-left: 20px;
+}
+
+.wd-post-author {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wd-time {
+    color: #777e85;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wd-headline {
+    font-weight: bold;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wd-post-topic {
+    color: #777e85;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-post-img {
+    position: relative;
+    left: 50px;
+    top: 10px;
+    bottom: 10px;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+.no-tweets {
+    color: #777e85;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.li {
+    display: flex;
+}
+
+.who-to-follow {
+    font-weight: bold;
+}
+
+.follow-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.follow-handle {
+    font-size: 12px;
+}
+
+.follow-btn {
+    border-radius: 20px;
+    position: relative;
+    right: 25px;
+}
