@@ -1,34 +1,19 @@
 export default [
-  {
-    "topic": "Web Development",
-    "userName": "ReactJS",
-    "time": "2h",
-    "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
-    "content": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
-    "image": "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png"
-  },
-  {
-    "topic": "",
-    "userName": "JavaScript",
-    "time": "1 day",
-    "title": "JavaScript is programming language that can run on browsers as well as desktops",
-    "image": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg",
-    "tweets": "123K"
-  },
-  {
-    "topic": "Web Development",
-    "userName": "",
-    "title": "jQuery",
-    "time": "last week",
-    "image": "https://e7.pngegg.com/pngimages/911/765/png-clipart-jquery-computer-icons-javascript-jquery-logo-logo-jquery-ui.png",
-    "tweets": "122K"
-  },
-  {
-    "topic": "Web Development",
-    "userName": "NodeJS",
-    "title": "",
-    "time": "last month",
-    "image": "https://png.pngitem.com/pimgs/s/168-1680234_nodejs-logo-svg-hd-png-download.png",
-    "tweets": "120K"
-  }
+    {
+        profile: 'https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg', user: 'Elon Musk', handle: '@elonmusk', time: '23h',
+        topic: 'Amazing show about <a href="https://twitter.com/inspiration4x">@Inspiration4x</a> mission', image: 'https://cdn.mos.cms.futurecdn.net/z84zZNCTpphuY46UWAsMJj-1200-80.jpg',
+        hasimg: true, title1: 'Countdown: Inspiration4 Mission to Space | Netflix Official Site',
+        title2: 'From training to launch to landing, this all-access docuseries rides ' +
+            'along with the inspiration4 crew on the first all-civilian orbital space.',
+         link: 'netflix.com',
+        comments: '1.2k', retweets: '3.5k', hearts: '37.5k'
+    },
+    {
+        profile: 'https://variety.com/wp-content/uploads/2020/10/New-York-Post-Twitter.png', user: 'New York Post', handle: '@nypost', time: '23h',
+        topic: 'Grimes seen reading Karl Marx following split with world\'s'
+               + ' richest man Elon Musk <a href="https://nypost.com/2021/10/02/grimes-reads-karl-marx-after-split-with-worlds-richest-man-elon-musk/?utm_medium=SocialFlow&utm_campaign=SocialFlow&utm_source=NYPTwitter">trib.al/nx2Gfaq</a>',
+        image: 'https://pbs.twimg.com/media/FAuW2GlXIAIOBN7.jpg:large',
+        hasimg: false,
+        comments: '965', retweets: '2.4k', hearts: '4k'
+    },
 ];
