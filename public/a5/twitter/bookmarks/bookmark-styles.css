@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+    color: lightgray;
+}
+
+body {
+    margin-top: 0;
+    overflow-y: auto;
+    background-color: black;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wd-bookmarks-page {
+    width: 600px;
+    margin: auto;
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    padding: 0;
+    color: lightgray;
+}
+
+.wd-header {
+    margin-left: 16px;
+    margin-top: 12px;
+    display: flex;
+}
+
+.wd-heading {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin: 4%;
+}
+
+.wd-username {
+    font-family: Arial;
+    font-weight: lighter;
+    color: lightgray;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.wd-dots {
+    position: absolute;
+    top: 3%;
+    right: 31%;
+    color: rgb(29,161,242);
+}
+
+.wd-header-separator {
+    border: 1px solid #2d2d2d;
+}
+
+.wd-user-post {
+    margin-left: 16px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-info-content {
+    margin-right: 7%;
+}
+
+.wd-avatar-img {
+    margin-right: 12px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wd-name {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.wd-username-date {
+    font-size: 15px;
+}
+
+.wd-post-info {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: white;
+}
+
+.wd-dots-post {
+    position: absolute;
+    color: lightgray;
+    right: 31%;
+}
+
+.wd-shared-content {
+    width: 504px;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+.wd-shared-img {
+    margin-top: 12px;
+    width: 504px;
+    height: 264px;
+    border-radius: 20px 20px 0 0;
+    border: 1px solid #2d2d2d;
+}
+
+.wd-shared-text {
+    width: 504px;
+    margin-top: 0;
+    padding: 12px;
+    border: 1px solid #2d2d2d;
+    border-top: none;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.wd-shared-heading {
+    padding: 12px 12px 12px 12px;
+    color: white;
+    font-size: 15px;
+}
+
+.wd-shared-para {
+    font-size: 15px;
+    color: darkgray;
+    padding: 0 12px 12px 12px;
+}
+
+.wd-url {
+    font-size: 15px;
+    color: #5c6267;
+}
+
+.wd-url-icon {
+    color: #5c6267;
+}
+
+.wd-other-options {
+    width: 504px;
+    display: flex;
+    gap: 15%;
+    color: white;
+    margin-left: 80px;
+    margin-top: 12px;
+}
+
+.wd-icon {
+    color: darkgray;
+}
+
+.wd-heart {
+    color: darkred;
+}
+
+.wd-option {
+    display: flex;
+}
+
+.wd-count {
+    margin-left: 10px;
+    font-size: 15px;
+    color: darkgray;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.wd-count-heart {
+    color: darkred;
+}
